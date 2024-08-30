@@ -1,5 +1,6 @@
 import ReasturantCard from "./ResturantCard";
 import { useEffect, useState } from "react";
+import Shimmer from "./Shimmer";
 
 const Body = () => {
 
@@ -17,6 +18,10 @@ const Body = () => {
     console.log(json)
     setListOfRes(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
   };
+
+  if (listOfRes.length===0){
+    return  <Shimmer/>
+  }
 
     return(
       <div className='body'>
