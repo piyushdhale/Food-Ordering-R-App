@@ -19,11 +19,8 @@ const Body = () => {
     setListOfRes(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
   };
 
-  if (listOfRes.length===0){
-    return  <Shimmer/>
-  }
-
-    return(
+    return listOfRes.length===0 ?
+     <Shimmer/> : (
       <div className='body'>
         
         <div className='filter'>
