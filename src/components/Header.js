@@ -24,7 +24,7 @@ const Header = () => {
                 ? setBtnName("Logout")
                 : setBtnName("Login")
               }}>{btnName}</button>
-          </ul>klsdjfkjhfkodjhf
+          </ul>
   
         </div>
       </div>
