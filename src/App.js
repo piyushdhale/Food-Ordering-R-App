@@ -8,6 +8,8 @@ const AppLayout = () =>{
   return (
     <div className='app'>
       <Header/>
+      <marquee width="100%" height="25px" direction="right">
+        WebSite under developement</marquee>
       <Body/>
     </div>
   )

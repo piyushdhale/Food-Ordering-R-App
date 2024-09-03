@@ -1,6 +1,6 @@
 import constants from "../utils/constants";
 
-const ReasturantCard = (props) => {
+const ResturantCard = (props) => {
   
     const {resObj}=props;
   
@@ -21,4 +21,4 @@ const ReasturantCard = (props) => {
   
   }
 
-  export default ReasturantCard;
+  export default ResturantCard;

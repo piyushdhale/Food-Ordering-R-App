@@ -25,7 +25,6 @@ const Header = () => {
                 : setBtnName("Login")
               }}>{btnName}</button>
           </ul>
-          <input type="text" placeholder="search" className="searchBox" /><button className="searchBtn">search</button>
   
         </div>
       </div>
