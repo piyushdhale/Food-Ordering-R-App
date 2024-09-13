@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./components/Header";
-import Body from "./components/Body";
+import { Outlet } from "react-router-dom";
 
 const AppLayout = () => {
   return (
@@ -9,7 +9,7 @@ const AppLayout = () => {
       <marquee width="100%" height="25px" direction="right">
         WebSite under developement
       </marquee>
-      <Body />
+      <Outlet />
     </div>
   );
 };
