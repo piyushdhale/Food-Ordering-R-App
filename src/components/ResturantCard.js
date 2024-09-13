@@ -4,8 +4,9 @@ const ResturantCard = (props) => {
   
     const {resObj}=props;
   
-    const {name,cuisines,avgRating,costForTwo,deliveryTime}=resObj?.info;
-    
+    const { name, cuisines, avgRating, costForTwo, deliveryTime } =
+      resObj?.info;
+
     return (
       <div className="res-card">
         <img
