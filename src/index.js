@@ -8,6 +8,7 @@ import About from "./components/About";
 import Contact from "./components/Constact";
 import Cart from "./components/Cart";
 import Error from "./components/Error";
+import ResMenu from "./components/RestaurantMenu";
 import reportWebVitals from "./reportWebVitals";
 
 const appRouter = createBrowserRouter([
@@ -31,6 +32,10 @@ const appRouter = createBrowserRouter([
       {
         path: "/Cart",
         element: <Cart />,
+      },
+      {
+        path: "/ResMenu/:resId",
+        element: <ResMenu />,
       },
     ],
   },
